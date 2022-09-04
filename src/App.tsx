@@ -1,7 +1,10 @@
-import React from "react";
+import React , {useState, useEffect} from "react";
 import "./App.css";
 
-function App() {
+const App = () => {
+  useEffect(()=> {
+    document.title = "react-gakufu"
+  })
   return <div className="App">
     
     
